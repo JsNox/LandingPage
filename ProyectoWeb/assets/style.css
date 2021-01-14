@@ -1,0 +1,145 @@
+.bienvenidos {
+  background: url("../images/fondo-bienvenidos.jpg");
+  background-size: cover;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.fixed-top {
+  background: rgba(0, 0, 0, 0.808);
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+  color: #dee2e6;
+}
+
+.navbar-toggler {
+  background-color: #fd7355;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #f2f6f9;
+  text-align: center;
+  margin-bottom: 0.2rem;
+  margin-right: 0.2rem;
+  padding: 0.8rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #f9f6f6;
+  background: #f05f40;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+  background: #f05f40;
+}
+
+.texto-bienvenido {
+  color: #fff;
+  margin-top: 7rem;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #f05f40;
+  border-color: #f05f40;
+}
+
+.btn-primary {
+  background-color: #F05F40;
+  border-color: #b93e24;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  text-transform: uppercase;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #fd7355;
+  border-color: #F05F40;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #F05F40;
+  border-color: #b93e24;
+}
+
+.quienes-somos {
+  background: #f05f40;
+  color: #fff;
+}
+
+.btn-secondary {
+  color: black;
+  background-color: #eeeeee;
+  border-color: #bbbdbe;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-secondary.dropdown-toggle {
+  color: black;
+  background-color: #eeeeee;
+  border-color: #bbbdbe;
+}
+
+.servicios .fa {
+  color: #f05f40;
+  font-size: 5rem;
+}
+
+.servicios h3 {
+  font-weight: bold;
+}
+
+.portafolio {
+  background: #424141;
+  color: #fff;
+}
+
+.portafolio a {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 1.2rem;
+}
+
+.portafolio img {
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  min-width: 100%;
+}
+
+.portafolio a:hover img {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.footer {
+  background: #222222;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .bienvenidos {
+    background: url("../images/fondo-bienvenido-grande.jpg");
+    background-size: cover;
+  }
+}
+/*# sourceMappingURL=style.css.map */
